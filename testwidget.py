@@ -10,7 +10,7 @@ matplotlib.use("TkAgg")
 
 url = 'https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2021-01-01/2022-01-01?adjusted=false&sort=asc&limit=5000'
 
-headers = {'Authorization': 'Bearer brq8vCZyzgnpu_6TABAX4DfCYCYA_Gnw'}
+#headers = {'Authorization': 'Bearer'}
 
 response = requests.get(url, headers=headers).json()
 
